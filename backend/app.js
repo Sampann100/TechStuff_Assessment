@@ -10,6 +10,10 @@ app.use(
   })
 );
 
+app.get("/ping", (req, res) => {
+  res.status(200).send("pong");
+});
+
 app.get("/pokemon-list", async (req, res) => {
   try {
     const offset = Math.floor(Math.random() * 100);
