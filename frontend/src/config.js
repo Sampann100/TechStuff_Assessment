@@ -1,1 +1,1 @@
-export const Url = "http://localhost:3000";
+export const Url = "https://techstuff-assessment.onrender.com";
