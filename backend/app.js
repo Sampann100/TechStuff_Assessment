@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://tech-stuff-assessment.vercel.app/"],
+    origin: "*",
     credentials: true,
   })
 );
